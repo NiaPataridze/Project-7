@@ -1,0 +1,235 @@
+/* start of the header */
+.container{
+    max-width: 1920px;
+    width: 100%;
+    height: 3680px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+header{
+    max-width: inherit;
+    width: inherit;
+    position: fixed;
+    height: 130px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 320px;
+    align-items: center;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    width: 535px;
+    justify-content: space-between;
+    /* or gap: 68px; */
+}
+a{
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+.header_text_color{
+    color: #DCB47A;
+}
+/* start of the content */
+/* section1 */
+.section1{
+    width: 100%;
+    height: 1080px;
+    padding-top: 130px;
+    position: relative;
+}
+.section1_img{
+    width: 100%;
+    height: 1080px;
+    z-index: -1;
+}
+.section1_text1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 82px;
+    font-weight: 700;
+    color: white;
+    width: 1128px;
+    position: absolute;
+    top: 45%;
+    left: 46.9%;
+    transform: translate(-45%, -46.9%);
+    text-align: center;
+    line-height: 96px;
+}
+.section1_text2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    width: 583px;
+    position: absolute;
+    top: 68%;
+    left: 56%;
+    transform: translate(-68%, -56%);
+    text-align: center;
+    line-height: 150%;
+}
+.search_box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 30px;
+    width: 463px;
+    height: 71px;
+    position: absolute;
+    top: 76%;
+    left: 57%;
+    transform: translate(-76%, -57%);
+    border: 1px solid white;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+.search_box_text{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.search_logo_circle{
+    width: 50px;
+    height: 50px;
+    background: #525A55;
+    border-radius: 50px;
+    position: absolute;
+    top: 83%;
+    left: 95%;
+    transform: translate(-83%, -95%);
+}
+.search_logo{
+    position: absolute;
+    top: 66%;
+    left: 92.5%;
+    transform: translate(-66%, -92.5%);
+}
+/* section2 */
+.section2{
+    width: 100%;
+    max-width: 1280px;
+    position: absolute;
+    top: 1455px;
+    left: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 111px;
+}
+h2{
+    font-size: 75px;
+    color: #081323;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #DCB47A;
+    padding: 30px 41px;
+    gap: 17px;
+}
+.card_text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+.size{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+/* section3 */
+.section3{
+    width: 100%;
+    max-width: 1280px;
+    position: absolute;
+    top: 2257px;
+    left: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 111px;
+}
+.section3_imgs1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.section3_imgs2{
+    position: relative;
+}
+.section3_text{
+    color: #DCB47A;
+    font-size: 64px;
+    font-weight: 600;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section3_imgs3{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* start of the footer */
+footer{
+    max-width: 1920px;
+    width: 100%;
+    height: 378px;
+    position: absolute;
+    top: 3320px;
+    background-color: #262626;
+}
+.footer_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 71px;
+}
+.footer_color{
+    color: #DCB47A;
+}
+.footer_text1{
+    color: white;
+    font-size: 63px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 82px;
+    font-weight: 600;
+}
+.footer_text2{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    position: absolute;
+    top: 169px;
+    font-weight: 400;
+}
+.footer_box{
+    background-color: #DCB47A;
+    width: 205.19px;
+    height: 64.39px;
+    border-radius: 60px;
+    position: absolute;
+    top: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_box_text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
