@@ -117,8 +117,8 @@ a{
 .section2{
     width: 100%;
     max-width: 1280px;
-    position: absolute;
-    top: 1455px;
+    position: relative;
+    top: 280px;
     left: 320px;
     display: flex;
     flex-direction: column;
@@ -154,8 +154,8 @@ h2{
 .section3{
     width: 100%;
     max-width: 1280px;
-    position: absolute;
-    top: 2257px;
+    position: relative;
+    top: 550px;
     left: 320px;
     display: flex;
     flex-direction: column;
