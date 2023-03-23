@@ -5,6 +5,7 @@
     height: 3680px;
     margin: 0 auto;
     background-color: #F5F5F5;
+    position: relative;
 }
 header{
     max-width: inherit;
